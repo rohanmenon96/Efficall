@@ -1,0 +1,26 @@
+{
+  "name": "efficall",
+  "version": "1.0.0",
+  "description": "A small application/website to help the society",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohanmenon96/Efficall.git"
+  },
+  "author": "Rohan Menon, Hem Shah, Siddarth Chaudhary, Harshvardhan Dudeja, Shrikant Sherkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohanmenon96/Efficall/issues"
+  },
+  "homepage": "https://github.com/rohanmenon96/Efficall#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.1",
+    "uuid": "^3.3.2"
+  }
+}
