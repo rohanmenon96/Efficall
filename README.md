@@ -7,10 +7,10 @@
 3. Make Website
 
 2. Make App<br/>
-   i. 'Run Test' Screen
-   ii. Result Page
-   iii. Profile Page - (Backend with Mongo)
+   i. 'Run Test' Screen <br/>
+   ii. Result Page<br/>
+   iii. Profile Page - (Backend with Mongo)<br/>
    
-3. Make Website
-  i. One page website
+3. Make Website<br/>
+  i. One page website<br/>
   
