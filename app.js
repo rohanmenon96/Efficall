@@ -5,6 +5,7 @@ const exphbs = require("express-handlebars");
 const uuid = require("uuid");
 const cookieParser = require("cookie-parser");
 const exphndlbars = require("express-handlebars");
+const path = require("path");
 
 
 
@@ -26,6 +27,6 @@ app.listen(3000, () => {
 
 
 app.get("/",(req,res)=>{
-  res.send("This is the homepage");
+  res.sendFile(path.join(__dirname, "/views/index.html"))
 })
 
