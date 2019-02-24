@@ -26,21 +26,21 @@ app.listen(80, () => {
   console.log("We've now got a server!");
 });
 
-// app.post("/summarize/text",async(req,res)=>{
-//   console.log("Coming inside summarise route: ",req.body);
-//   const finalSummary = "";
+app.post("/summarize/text",async(req,res)=>{
+  console.log("Coming inside summarise route: ",req.body);
+  const finalSummary = "";
 
-//   await request.post(
-//   'http://34.73.186.176:5000/api/summarize/text',
-//   { json: { textData: req.body.textData} },
-//   async function (error, response, finalSummary) {
-//       if (!error && response.statusCode == 200) {
-//           console.log("Body:\n\n\n",await finalSummary)
-//           res.send({textData: finalSummary})
-//       }
-//   }
-// );
-// })
+  await request.post(
+  'http://34.73.186.176:5000/api/summarize/text',
+  { json: { textData: req.body.textData} },
+  async function (error, response, finalSummary) {
+      if (!error && response.statusCode == 200) {
+          console.log("Body:\n\n\n",await finalSummary)
+          res.send({textData: finalSummary})
+      }
+  }
+);
+})
 
 
 app.get("/",(req,res)=>{
