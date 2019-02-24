@@ -38,7 +38,12 @@ app.post("/summarize/text",async(req,res)=>{
           //console.log("Body:\n\n\n",await finalSummary)
           console.log("\n\nReceiving data: ",await finalSummary)
           console.log("\n\n\n type: ", await typeof finalSummary)
-          
+          if(finalSummary.length>1)
+            {
+              console.log(finalSummary.length);
+              var context = await finalSummary.splice(0,finalSummary.length-1)
+              console.log("\n\n\nContext: ", context)
+            }
           res.send({textData: finalSummary[finalSummary.length-1]})
       }
   }
