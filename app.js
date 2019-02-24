@@ -50,6 +50,11 @@ app.post("/summarize/text",async(req,res)=>{
 );
 })
 
+app.post("/summarize/audio",async(req,res)=>{
+  req.pipe(request('http://34.73.186.176:5000/api/summarize/audio')).pipe(res)
+})
+
+
 
 app.get("/getContext",async(req,res)=>{
   res.send("Hi")

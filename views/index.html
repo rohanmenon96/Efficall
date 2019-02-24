@@ -289,11 +289,14 @@
                         </div>
                         <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                             <h4>Audio File Upload:</h4>
-                            <form>
-                                <input type="file" class="form-control-file" id="file_upload">
+                            <form id="file_form">
+                                <input type="file" class="form-control-file" id="file_upload" name="file_upload">
                                 <br/>
                                 <button type="submit" class="btn btn-primary mb-2">Submit</button>
                             </form>
+                            <div id="audio-response-div">
+
+                            </div>
                         </div>
                       </div>
                 </div>
@@ -371,6 +374,7 @@
   <!-- Custom scripts for this template -->
   <script src="/views/js/new-age.min.js"></script>
   <script src="/views/js/summary.js"></script>
+  <script src="/views/js/file.js"></script>
 
 </body>
 
