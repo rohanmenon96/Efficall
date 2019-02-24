@@ -3,7 +3,7 @@
     {
         let textForm = $("#text_form");
         let textField = $(this).find('textarea[name="text_summary"]').text();
-        let textResponse = $("response-div");
+        let textResponse = $("#response-div");
 
         textForm.submit(function(event){
             event.preventDefault();
@@ -22,7 +22,7 @@
 
                 $.ajax(requestConfig).then(function(response){
                     let pTag = document.createElement("p");
-                    let pTagText = document.createTextNode(response);
+                    let pTagText = document.createTextNode(response.textData);
                     pTag.appendChild(pTagText);
 
                     textResponse.appendChild(pTag);
