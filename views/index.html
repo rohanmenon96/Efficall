@@ -47,6 +47,9 @@
             <a class="nav-link js-scroll-trigger" href="#features">Features</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#working">How does it work</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Meet the team</a>
           </li>
         </ul>
@@ -59,7 +62,7 @@
       <div class="row h-100">
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
-            <h1 class="mb-5">EffiCall is an app which helps you determine which connection type is best to use for the highest quality phone call at the lowest cost!</h1>
+            <h1 class="mb-5"><span style="font-family: 'Cinzel', serif;">EffiCall</span> is a call app which helps you optimize, summarise and contextualize your phone calls!</h1>
             <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
           </div>
         </div>
@@ -170,7 +173,11 @@
     <div class="overlay"></div>
   </section>
 
+<<<<<<< HEAD
   <section class="features" style="background-image: linear-gradient(to left, #7b4397, #dc2430)" id="features">
+=======
+  <section class="features bg-primary" id="working">
+>>>>>>> 8983d5a72f917c01174e85c6304fa3eb7a6f5785
     <div class="container">
       <div class="section-heading text-center">
         <h2>How does it work?</h2>
@@ -181,15 +188,54 @@
           <div class="device-container">
                 <div class="screen">
                   <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <img style="margin-left: -134%" src="/views/img/flow.png" alt="">
+                  <img style="margin-left: -110%; width:330%;" src="/views/img/flow.png"  alt="" usemap="#planetmap">
+                  <map name="planetmap">
+                      <area shape="rect" coords="300,100,450,400" alt="Sun" href="" data-toggle="modal" data-target="#optimize">
+                      <area shape="rect" coords="550,100,700,400" alt="Sun" href="" data-toggle="modal" data-target="#summerise">
+                    </map>
                 </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
+               
               </div>
         </div>
       </div>
-    </div>
+      <div class="modal fade" tabindex="-1" role="dialog" id="optimize">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Modal body text goes here.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" tabindex="-1" role="dialog" id="summerise">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
   </section>
 
   <section class="contact" id="contact">
@@ -215,9 +261,9 @@
             </div>
             <div class="col-lg-2">
             </div>
-            <div class="col-lg-4" style="font-family: 'Cinzel', serif; font-size: 29px">
+            <div class="col-lg-4" style="font-family: 'Cinzel', serif; font-size: 27px">
             <img src="./views/img/siddarth2.jpg" style = "border-radius: 50%; margin-bottom: 4%" alt="Avatar" style="width:200px" alt="Cinque Terre"></br>  
-              Siddarth Choudhary
+              Siddharth Choudhary
             </div>
             <div class="col-lg-4" style="font-family: 'Cinzel', serif; font-size: 29px">
             <img src="./views/img/0.jpg" style = "border-radius: 50%; margin-bottom: 4%; height: 200px" alt="Avatar"></br>
