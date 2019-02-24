@@ -27,9 +27,18 @@
 
                     textResponse.append(pTag);
 
-                    let pContextTag = document.createElement("p");
-                    let pContextText = document.createTextNode(response.conText);
-                    pContextTag.appendChild(pContextText);
+                    let pContextTag = document.createElement("ul");
+
+                    let array = response.conText;
+
+                    for(let i = 0; i < array.length; i++)
+                    {
+                        let list = document.createElement("li");
+                        let text = document.createTextNode(array[i]);
+                        list.appendChild(text);
+
+                        pContextTag.append(list);
+                    }
 
                     context.append(pContextTag);
                 });
