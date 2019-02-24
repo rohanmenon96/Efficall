@@ -36,7 +36,10 @@ app.post("/summarize/text",async(req,res)=>{
   async function (error, response, finalSummary) {
       if (!error && response.statusCode == 200) {
           //console.log("Body:\n\n\n",await finalSummary)
-          res.send({textData: finalSummary})
+          console.log("\n\nReceiving data: ",await finalSummary)
+          console.log("\n\n\n type: ", await typeof finalSummary)
+          
+          res.send({textData: finalSummary[finalSummary.length-1]})
       }
   }
 );
