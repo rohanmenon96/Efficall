@@ -25,7 +25,7 @@
                     let pTagText = document.createTextNode(response.textData);
                     pTag.appendChild(pTagText);
 
-                    textResponse.appendChild(pTag);
+                    textResponse.append(pTag);
                 });
             }
         })
