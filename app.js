@@ -42,6 +42,11 @@ app.post("/summarize/text",async(req,res)=>{
 );
 })
 
+app.post("/summarize/audio",async(req,res)=>{
+  req.pipe(request('http://34.73.186.176:5000/api/summarize/audio')).pipe(res)
+})
+
+
 
 app.get("/",(req,res)=>{
   res.sendFile(path.join(__dirname, "/views/index.html"))

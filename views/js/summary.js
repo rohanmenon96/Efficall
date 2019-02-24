@@ -2,7 +2,6 @@
     function($)
     {
         let textForm = $("#text_form");
-        let textField = $(this).find('textarea[name="text_summary"]').text();
         let textResponse = $("#response-div");
 
         textForm.submit(function(event){
