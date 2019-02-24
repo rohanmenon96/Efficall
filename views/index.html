@@ -240,11 +240,14 @@
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                           <h4>Text Upload:</h4>
-                            <form>
-                                <textarea class="form-control" id="text_summary" rows="3"></textarea>
+                            <form id="text_form">
+                                <textarea class="form-control" id="text_summary" name="text_summary" rows="3"></textarea>
                                 <br/>
                                 <button type="submit" class="btn btn-primary mb-2">Submit</button>
                             </form>
+                            <div id="response-div">
+                              
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                             <h4>Audio File Upload:</h4>
@@ -329,6 +332,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="/views/js/new-age.min.js"></script>
+  <script src="/views/js/custom.js"></script>
 
 </body>
 
