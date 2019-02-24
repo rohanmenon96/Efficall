@@ -51,6 +51,10 @@ app.post("/summarize/text",async(req,res)=>{
 })
 
 
+app.get("/getContext",async(req,res)=>{
+  res.send("Hi")
+})
+
 app.get("/",(req,res)=>{
   res.sendFile(path.join(__dirname, "/views/index.html"))
 })

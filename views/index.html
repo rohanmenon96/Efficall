@@ -189,10 +189,39 @@
                   <map name="planetmap">
                       <area shape="rect" coords="300,100,450,400" alt="Sun" href="" data-toggle="modal" data-target="#optimize">
                       <area shape="rect" coords="550,100,700,400" alt="Sun" href="" data-toggle="modal" data-target="#summerise">
+                      <area shape="rect" coords="800,100,950,400" alt="Sun" href="" data-toggle="modal" data-target="#contextualize">
                     </map>
                 </div>
                
               </div>
+        </div>
+      </div>
+
+      <div class="modal fade" tabindex="-1" role="dialog" id="contextualize">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">What is contextualization?</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p><span style= "font-family: 'Laila', serif;">
+                After getting a summary, we may further extract important information from the input text.
+                This information may include important meeting dates, scheduled appointments and future
+                commitments. Our algorithm traces key trigger-words from the conversation and gives out 
+                bullet points like "To-Do" items to the user.                 
+                </span>
+              </p>
+              <form action = "/getContext" method= "GET">
+                <button type="submit" class="btn btn-primary mb-2">Contextualize</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn" style= "background: orange" data-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
       </div>
 
