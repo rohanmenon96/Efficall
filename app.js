@@ -38,7 +38,7 @@ app.post("/summarize/text",async(req,res)=>{
           console.log("Body:\n\n\n",await finalSummary)
           console.log("Outside: \n\n",finalSummary)
           res.send({textData: finalSummary})
-6      }
+      }
   }
 );
 })
