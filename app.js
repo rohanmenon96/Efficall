@@ -37,7 +37,7 @@ app.post("/summarize/text",async(req,res)=>{
       if (!error && response.statusCode == 200) {
           console.log("Body:\n\n\n",await finalSummary)
           res.send({textData: finalSummary})
-6      }
+      }
   }
 );
 })
