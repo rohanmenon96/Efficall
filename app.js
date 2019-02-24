@@ -44,7 +44,7 @@ app.post("/summarize/text",async(req,res)=>{
               var context = await finalSummary.splice(0,finalSummary.length-1)
               console.log("\n\n\nContext: ", context)
             }
-          res.send({textData: finalSummary[finalSummary.length-1]})
+          res.send({textData: finalSummary[finalSummary.length-1], conText: context})
       }
   }
 );
