@@ -1,18 +1,31 @@
-# Efficall
+Delta is a common channel that tracks requests from students/employers anonymously to the institution.
 
-#ToDo
+DevPost page: https://devpost.com/software/improvecommunication
 
-1. Make Presentation
-2. Make App
-3. Make Website
+Parent Git Repo: https://github.com/SiddharthChoudhary/ImproveCommunication
 
-2. Make App<br/>
-   i. 'Run Test' Screen <br/>
-   ii. Result Page<br/>
-   iii. Profile Page - (Backend with Mongo)<br/>
-   
-3. Make Website<br/>
-  i. One page website<br/>
- 
-4. Live Website<br/>
-5. Live App<br/>
+Project Walkthrough: https://www.youtube.com/watch?v=H6Ix98ANBew
+
+Project Members:
+
+Rohan Menon
+Hem Shah https://github.com/hshah42
+Siddarth Choudhary https://github.com/SiddharthChoudhary/
+Shrikant Sherkar https://github.com/smartshree4392
+Implementation Steps:
+
+(MongoDB and NodeJs required for running)
+
+Execution Steps: (NodeJs and MongoDB required)
+
+Download the zip folder and extract it in any of your local folders
+
+Open command prompt and cd into the folder
+
+Type npm install
+
+Type npm start
+
+Open browser and route to localhost:3000
+
+You can now browse the website while creating your own id.
