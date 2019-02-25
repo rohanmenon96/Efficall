@@ -6,7 +6,7 @@ Android App Git Repo: https://github.com/SiddharthChoudhary/EfficallAndroidVersi
 
 Project Members:
 
-Rohan Menon
-Hem Shah https://github.com/hshah42
-Siddarth Choudhary https://github.com/SiddharthChoudhary/
-Shrikant Sherkar https://github.com/smartshree4392
+Rohan Menon<br/>
+Hem Shah https://github.com/hshah42<br/>
+Siddarth Choudhary https://github.com/SiddharthChoudhary/<br/>
+Shrikant Sherkar https://github.com/smartshree4392<br/>
