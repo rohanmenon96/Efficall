@@ -10,3 +10,5 @@ Rohan Menon<br/>
 Hem Shah https://github.com/hshah42<br/>
 Siddarth Choudhary https://github.com/SiddharthChoudhary/<br/>
 Shrikant Sherkar https://github.com/smartshree4392<br/>
+
+Sorry if the website seems off! We are coming up with some new changes!
