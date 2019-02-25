@@ -2,6 +2,8 @@
 
 EffiCall is a call app which helps you optimize, summarise and contextualize your phone calls!
 
+<i>2nd Place winning project at the IDT hackathon 2019</i> 
+
 Android App Git Repo: https://github.com/SiddharthChoudhary/EfficallAndroidVersion
 
 Project Members:
