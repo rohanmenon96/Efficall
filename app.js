@@ -23,7 +23,6 @@ app.set("view engine", "handlebars");
 app.engine("handlebars", exphndlbars({defaultLayout:""}));
 
 app.listen(80, () => {
-  console.log("Test commit 212")
   console.log("We've now got a server!");
 });
 
